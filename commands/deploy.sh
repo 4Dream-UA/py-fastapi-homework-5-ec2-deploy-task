@@ -9,8 +9,8 @@ handle_error() {
     exit 1
 }
 
-# Navigate to the application directory
-cd /home/ubuntu/src/mate-fastapi-homework-5 || handle_error "Failed to navigate to the application directory."
+# Navigate to the application directory (UPDATED PATH)
+cd /home/ec2-user/src/py-fastapi-homework-5-ec2-deploy-task || handle_error "Failed to navigate to the application directory."
 
 # Fetch the latest changes from the remote repository
 echo "Fetching the latest changes from the remote repository..."
